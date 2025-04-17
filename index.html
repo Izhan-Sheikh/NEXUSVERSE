@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexusverse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yMCAwTDM2LjYwMjUgMTBWMzBMMjAgNDBMMy4zOTc0NiAzMFYxMEwyMCAwWiIgZmlsbD0iI0UzM0IzQiIgZmlsbC1vcGFjaXR5PSIwLjIiLz4KICAgIDxwYXRoIGQ9Ik0yMCA1TDMxLjY1MDYgMTEuNVYyNC41TDIwIDMxTDguMzQ5MzYgMjQuNVYxMS41TDIwIDVaIiBzdHJva2U9IiNFMzNCM0IiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHBhdGggZD0iTTIwIDEwTDI2Ljc4NDYgMTMuNzVWMjEuMjVMMjAgMjVMMTMuMjE1NCAyMS4yNVYxMy43NUwyMCAxMFoiIGZpbGw9IiNFMzNCM0IiLz4KPC9zdmc+">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="logo">
+                <svg class="logo-svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 0L36.6025 10V30L20 40L3.39746 30V10L20 0Z" fill="#E33B3B" fill-opacity="0.2"/>
+                    <path d="M20 5L31.6506 11.5V24.5L20 31L8.34936 24.5V11.5L20 5Z" stroke="#E33B3B" stroke-width="2"/>
+                    <path d="M20 10L26.7846 13.75V21.25L20 25L13.2154 21.25V13.75L20 10Z" fill="#E33B3B"/>
+                </svg>
+                <h1>NEXUSVERSE</h1>
+            </div>
+            <div class="nav-items">
+                <a href="#" class="active">Home</a>
+                <a href="#horizontal-videos">Projects</a>
+                <a href="#anime-section">Anime</a>
+                <a href="#manga-gallery-section">Manga</a>
+                <a href="#news">News</a>
+            </div>
+            <div class="nav-buttons">
+                <button class="btn-login">Subscribe</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <video id="hero-video" autoplay muted loop playsinline>
+                <source src="video/1 vid.mp4" type="video/mp4">
+                
+            </video>
+            <div class="glitch-overlay"></div>
+            
+            <div class="hero-content">
+                <div class="hero-tagline">Discover the best of</div>
+                <h1 class="hero-title">Nexusverse</h1>
+                <p class="hero-description">
+                    not just art, not just code. A fusion of vision, passion, and pixels.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#horizontal-videos" class="hero-btn primary">Explore Now</a>
+                    <a href="#news" class="hero-btn secondary">Get News</a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Anime Showcase Section -->
+        <section class="anime-showcase-section" id="anime-showcase">
+            <!-- ... existing code ... -->
+        </section>
+
+        <!-- Horizontal Scrolling Video Section -->
+        <section class="horizontal-video-section" id="horizontal-videos">
+            <div class="section-spacing"></div>
+            <div class="gallery-header">
+                <h2 class="gallery-title">PROJECTS</h2>
+                <p class="gallery-subtitle">Explore our digital creations and visual experiments</p>
+            </div>
+            <div class="video-row-container">
+                <!-- Top Row - Left to Right -->
+                <div class="video-row scroll-right">
+                    <!-- Video 1 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Cybernetic Awakening" data-desc="A deep dive into the fusion of humanity and technology in a neon-lit future.">
+                            <source src="video/1 vid.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                   
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Digital Dreamscape" data-desc="Exploring abstract digital environments where reality bends to imagination.">
+                            <source src="video/2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                    <div class="video-item">
+                        <img src="video/3.gif" alt="Animated Content" style="width:100%; height:100%; object-fit:cover;" data-title="Particle Symphony" data-desc="An animated exploration of particle physics visualized through digital art.">
+                    </div>
+                    <!-- Video 4 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Neon Jungle" data-desc="Urban landscapes transformed by vivid neon lights and holographic projections.">
+                            <source src="video/4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- Video 5 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Quantum Echo" data-desc="Visual interpretation of quantum mechanics and the unseen forces of reality.">
+                            <source src="video/5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                
+                <!-- Bottom Row - Right to Left -->
+                <div class="video-row scroll-left">
+                    <!-- Video 6 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Synthetic Evolution" data-desc="The evolution of artificial intelligence visualized through abstract digital forms.">
+                            <source src="video/7.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- Video 7 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Dimensional Rift" data-desc="A glimpse into parallel dimensions where reality fragments and recombines.">
+                            <source src="video/8.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- Video 8 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Digital Genesis" data-desc="The birth of digital life forms in a constantly evolving virtual ecosystem.">
+                            <source src="video/9.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- Video 9 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Neural Network" data-desc="Visualization of AI neural networks processing and interpreting complex data streams.">
+                            <source src="video/10.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- Video 10 -->
+                    <div class="video-item">
+                        <video autoplay loop muted playsinline data-title="Holographic Memories" data-desc="Digital memories preserved as holographic projections in a post-physical world.">
+                            <source src="video/11.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- New Futuristic Anime Section -->
+        <section class="anime-section" id="anime-section">
+            <div class="section-spacing"></div>
+            
+            <div class="gallery-header">
+                <h2 class="gallery-title">ANIME NEXUS</h2>
+                <p class="gallery-subtitle">Where digital art meets anime culture</p>
+            </div>
+            
+            <!-- Spotlight Anime of the Week -->
+            <div class="spotlight-container">
+                <div class="spotlight-card">
+                    <div class="spotlight-image">
+                        <img src="video/week.jpg" alt="Spotlight Anime">
+                        <div class="spotlight-overlay"></div>
+                        <div class="spotlight-badge">SPOTLIGHT OF THE WEEK</div>
+                    </div>
+                    <div class="spotlight-content">
+                        <div class="spotlight-info">
+                            <h3>CYBERPUNK: EDGERUNNERS</h3>
+                            <div class="spotlight-meta">
+                                <span class="spotlight-studio">Studio Trigger</span>
+                                <span class="spotlight-rating">9.2/10</span>
+                            </div>
+                            <p class="spotlight-desc">A street kid tries to survive in Night City — a technology and body modification-obsessed city of the future — by becoming an edgerunner, a mercenary outlaw also known as a cyberpunk.</p>
+                            <div class="spotlight-tags">
+                                <span>#Cyberpunk</span>
+                                <span>#Dystopian</span>
+                                <span>#Sci-Fi</span>
+                            </div>
+                        </div>
+                        <div class="spotlight-cta">
+                            <a href="https://aniwatchtv.to/" target="_blank" class="spotlight-btn">Watch Now</a>
+                            <a href="https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners" target="_blank" class="spotlight-btn-secondary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Character Highlights with Neon Borders -->
+            <div class="character-section">
+                <div class="gallery-header">
+                    <h2 class="gallery-title">CHARACTER HIGHLIGHTS</h2>
+                    <p class="gallery-subtitle">Iconic figures from the world of anime</p>
+                </div>
+                
+                <div class="character-container">
+                    <!-- Character 1 -->
+                    <div class="character-card neon-border-red">
+                        <div class="character-image">
+                            <img src="video/c-1.jpg" alt="Character">
+                        </div>
+                        <div class="character-info">
+                            <h4>Levi Ackerman</h4>
+                            <p>Attack on Titan</p>
+                            <div class="character-stats">
+                                <div class="stat">
+                                    <span>POWER</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:92%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>SPEED</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:98%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>STRATEGY</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:95%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Character 2 -->
+                    <div class="character-card neon-border-blue">
+                        <div class="character-image">
+                            <img src="video/c-2.jpg" alt="Character">
+                        </div>
+                        <div class="character-info">
+                            <h4>Gojo Satoru</h4>
+                            <p>Jujutsu Kaisen</p>
+                            <div class="character-stats">
+                                <div class="stat">
+                                    <span>POWER</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:99%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>SPEED</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:96%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>STRATEGY</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:90%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Character 3 -->
+                    <div class="character-card neon-border-purple">
+                        <div class="character-image">
+                            <img src="video/c-3.jpg" alt="Character">
+                        </div>
+                        <div class="character-info">
+                            <h4>Makima</h4>
+                            <p>Chainsaw Man</p>
+                            <div class="character-stats">
+                                <div class="stat">
+                                    <span>POWER</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:97%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>SPEED</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:88%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>STRATEGY</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:99%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Character 4 -->
+                    <div class="character-card neon-border-green">
+                        <div class="character-image">
+                            <img src="video/c=4.jpg" alt="Character">
+                        </div>
+                        <div class="character-info">
+                            <h4>Power</h4>
+                            <p>Chainsaw Man</p>
+                            <div class="character-stats">
+                                <div class="stat">
+                                    <span>POWER</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:85%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>SPEED</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:90%"></div></div>
+                                </div>
+                                <div class="stat">
+                                    <span>STRATEGY</span>
+                                    <div class="stat-bar"><div class="stat-fill" style="width:70%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Fan Art Gallery Grid -->
+            <div class="fanart-section">
+                <div class="gallery-header">
+                    <h2 class="gallery-title">DIGITAL ARTISTRY</h2>
+                    <p class="gallery-subtitle">Fan-created masterpieces from the digital frontier</p>
+                </div>
+                
+                <div class="fanart-grid">
+                    <!-- Fan Art 1 -->
+                    <div class="fanart-item" style="--item-index: 0;">
+                        <img src="video/fan1.jpeg" alt="Fan Art">
+                        <div class="fanart-hover">
+                            <h4>Neo Tokyo Dreamscape</h4>
+                            <p>by @DigitalDreamer</p>
+                            <div class="fanart-likes">
+                                <i class="fas fa-heart"></i>
+                                <span>1.2K</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fan Art 2 -->
+                    <div class="fanart-item" style="--item-index: 1;">
+                        <img src="video/fan2.jpeg" alt="Fan Art">
+                        <div class="fanart-hover">
+                            <h4>Spiritual Connection</h4>
+                            <p>by @SpiritArtist</p>
+                            <div class="fanart-likes">
+                                <i class="fas fa-heart"></i>
+                                <span>876</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fan Art 3 -->
+                    <div class="fanart-item" style="--item-index: 2;">
+                        <img src="video/fan3.jpeg" alt="Fan Art">
+                        <div class="fanart-hover">
+                            <h4>Cybernetic Evolution</h4>
+                            <p>by @NeoArtist</p>
+                            <div class="fanart-likes">
+                                <i class="fas fa-heart"></i>
+                                <span>2.4K</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fan Art 4 -->
+                    <div class="fanart-item" style="--item-index: 3;">
+                        <img src="video/fan4.jpeg" alt="Fan Art">
+                        <div class="fanart-hover">
+                            <h4>Demon Slayer Reimagined</h4>
+                            <p>by @BladeCanvas</p>
+                            <div class="fanart-likes">
+                                <i class="fas fa-heart"></i>
+                                <span>1.8K</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fan Art 5 -->
+                    <div class="fanart-item" style="--item-index: 4;">
+                        <img src="video/fan5.jpeg" alt="Fan Art">
+                        <div class="fanart-hover">
+                            <h4>Digital Samurai</h4>
+                            <p>by @FutureBlade</p>
+                            <div class="fanart-likes">
+                                <i class="fas fa-heart"></i>
+                                <span>3.2K</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fan Art 6 -->
+                    <div class="fanart-item" style="--item-index: 5;">
+                        <img src="video/fan6.jpeg" alt="Fan Art">
+                        <div class="fanart-hover">
+                            <h4>Ethereal Consciousness</h4>
+                            <p>by @MindScape</p>
+                            <div class="fanart-likes">
+                                <i class="fas fa-heart"></i>
+                                <span>1.5K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fanart-cta">
+                    <button class="fanart-explore-btn" onclick="window.open('https://www.artstation.com/search?sort_by=relevance&query=anime%20art', '_blank')">
+                        <span>EXPLORE FULL GALLERY</span>
+                        <i class="fas fa-arrow-right"></i>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- News Section -->
+        <section class="news-section" id="news">
+            <div class="section-spacing"></div>
+            <div class="gallery-header">
+                <h2 class="gallery-title">LATEST DROPS</h2>
+                <p class="gallery-subtitle">Explore the newest content from our collection</p>
+            </div>
+
+            
+            
+            <div class="news-scroller-container">
+                <div class="news-scroller" id="newsScroller">
+                    <!-- News Card 1 -->
+                    <article class="news-card">
+                        <div class="card-img-container">
+                            <img src="video/news-1.jpg" alt="Demon Slayer" class="card-img">
+                            <div class="card-category">FEATURED</div>
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-date">06.15.23</span>
+                                <span class="card-tag">NEW SEASON</span>
+                            </div>
+                            <h3 class="card-title">DEMON SLAYER: HASHIRA TRAINING ARC</h3>
+                            <p class="card-desc">The highly anticipated Hashira Training Arc is set to release this year, bringing new challenges for Tanjiro and his companions.</p>
+                            <a href="https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba" target="_blank" class="card-link">
+                                <span>Watch Now</span>
+                                
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- News Card 2 -->
+                    <article class="news-card">
+                        <div class="card-img-container">
+                            <img src="video/news-2.jpg" alt="Jujutsu Kaisen" class="card-img">
+                            <div class="card-category">TRENDING</div>
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-date">06.10.23</span>
+                                <span class="card-tag">FEATURE</span>
+                            </div>
+                            <h3 class="card-title">JUJUTSU KAISEN: SHIBUYA INCIDENT ARC</h3>
+                            <p class="card-desc">The groundbreaking Shibuya Incident arc comes to its epic conclusion, changing the world of jujutsu sorcery forever.</p>
+                            <a href="https://www.funimation.com" target="_blank" class="card-link">
+                                <span>Read Analysis</span>
+                                
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- News Card 3 -->
+                    <article class="news-card">
+                        <div class="card-img-container">
+                            <img src="video/news-3.jpg" alt="Attack on Titan" class="card-img">
+                            <div class="card-category">CLASSIC</div>
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-date">06.05.23</span>
+                                <span class="card-tag">RETROSPECTIVE</span>
+                            </div>
+                            <h3 class="card-title">ATTACK ON TITAN: LEGACY AFTER FINALE</h3>
+                            <p class="card-desc">One year after its controversial finale, we examine the impact and legacy of Attack on Titan on anime storytelling.</p>
+                            <a href="https://www.ign.com/articles/attack-on-titan-final-season-finale-review" target="_blank" class="card-link">
+                                <span>Read Review</span>
+                                
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- News Card 4 -->
+                    <article class="news-card">
+                        <div class="card-img-container">
+                            <img src="video/news-4.jpg" alt="One Piece" class="card-img">
+                            <div class="card-category">ONGOING</div>
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-date">06.01.23</span>
+                                <span class="card-tag">MILESTONE</span>
+                            </div>
+                            <h3 class="card-title">ONE PIECE: EGGHEAD ARC REVELATIONS</h3>
+                            <p class="card-desc">The Egghead Arc brings game-changing revelations about the void century and the true nature of the One Piece treasure.</p>
+                            <a href="https://www.cbr.com/one-piece-egghead-island-arc-biggest-revelations/" target="_blank" class="card-link">
+                                <span>Explore Theories</span>
+                                
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- News Card 5 -->
+                    <article class="news-card">
+                        <div class="card-img-container">
+                            <img src="video/news-5.jpg" alt="Chainsaw Man" class="card-img">
+                            <div class="card-category">UPCOMING</div>
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-date">05.25.23</span>
+                                <span class="card-tag">PREVIEW</span>
+                            </div>
+                            <h3 class="card-title">CHAINSAW MAN SEASON 2 ANNOUNCEMENT</h3>
+                            <p class="card-desc">MAPPA studio confirms Chainsaw Man Season 2 is in production, focusing on the explosive "Academy Saga" from the manga.</p>
+                            <a href="https://www.animenewsnetwork.com/news/2023-05-02/chainsaw-man-manga-gets-academy-arc-anime/.196092" target="_blank" class="card-link">
+                                <span>First Look</span>
+                                
+                            </a>
+                        </div>
+                    </article>
+                    
+                    <!-- News Card 6 -->
+                    <article class="news-card">
+                        <div class="card-img-container">
+                            <img src="video/news-6.jpg" alt="My Hero Academia" class="card-img">
+                            <div class="card-category">FINALE</div>
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-date">05.18.23</span>
+                                <span class="card-tag">FINAL BATTLE</span>
+                            </div>
+                            <h3 class="card-title">MY HERO ACADEMIA: ENDGAME APPROACHES</h3>
+                            <p class="card-desc">As the manga approaches its conclusion, we analyze how the final battle between heroes and villains will reshape hero society.</p>
+                            <a href="www.animenewsnetwork.com" target="_blank" class="card-link">
+                                <span>Read Analysis</span>
+                                
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- Center swipe buttons below cards -->
+                <div class="swipe-controls center-controls">
+                    <button class="scroll-btn" id="scrollLeftBtnBottom">←</button>
+                    <div class="swipe-indicator">
+                        <div class="swipe-dots">
+                            <span class="swipe-dot active"></span>
+                            <span class="swipe-dot"></span>
+                            <span class="swipe-dot"></span>
+                            <span class="swipe-dot"></span>
+                            <span class="swipe-dot"></span>
+                            <span class="swipe-dot"></span>
+                        </div>
+                    </div>
+                    <button class="scroll-btn" id="scrollRightBtnBottom">→</button>
+                </div>
+            </div>
+            
+            <div class="news-footer">
+                <div class="news-cta">
+                    <div class="cta-line"></div>
+                    <a href="https://www.animenewsnetwork.com" class="cta-button">
+                        <span>Get more news</span>
+                        <div class="btn-aura"></div>
+                    </a>
+                    <div class="cta-line"></div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!-- New Futuristic Manga Gallery Section -->
+        <section class="manga-gallery-section" id="manga-gallery-section">
+            <div class="section-spacing"></div>
+            
+            <div class="gallery-header">
+                <h2 class="gallery-title">MANGA NEXUS</h2>
+                <p class="gallery-subtitle">Digital art meets Japanese storytelling in our curated collection of manga</p>
+            </div>
+            
+            <div class="floating-gallery">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" style="--item-index: 0;">
+                    <div class="gallery-cover">
+                        <div class="cover-front">
+                            <img src="video/m1.jpg" alt="Manga Cover">
+                            <div class="cover-gloss"></div>
+                            <div class="cover-info">
+                                <h3>CYBER RONIN</h3>
+                                <p>A lone warrior in a digital wasteland</p>
+                                <div class="cover-tags">
+                                    <span class="cover-tag">Cyberpunk</span>
+                                    <span class="cover-tag">Action</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover-spine" data-title="CYBER RONIN"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" style="--item-index: 1;">
+                    <div class="gallery-cover">
+                        <div class="cover-front">
+                            <img src="video/m-5.jpg" alt="Manga Cover">
+                            <div class="cover-gloss"></div>
+                            <div class="cover-info">
+                                <h3>NEON GENESIS</h3>
+                                <p>Humanity's last stand begins</p>
+                                <div class="cover-tags">
+                                    <span class="cover-tag">Sci-Fi</span>
+                                    <span class="cover-tag">Mecha</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover-spine" data-title="NEON GENESIS"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" style="--item-index: 2;">
+                    <div class="gallery-cover">
+                        <div class="cover-front">
+                            <img src="video/m3.jpg" alt="Manga Cover">
+                            <div class="cover-gloss"></div>
+                            <div class="cover-info">
+                                <h3>DIGITAL SAMURAI</h3>
+                                <p>Honor in the age of artificial intelligence</p>
+                                <div class="cover-tags">
+                                    <span class="cover-tag">Action</span>
+                                    <span class="cover-tag">Drama</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover-spine" data-title="DIGITAL SAMURAI"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" style="--item-index: 3;">
+                    <div class="gallery-cover">
+                        <div class="cover-front">
+                            <img src="video/m4.jpg" alt="Manga Cover">
+                            <div class="cover-gloss"></div>
+                            <div class="cover-info">
+                                <h3>GHOST PROTOCOL</h3>
+                                <p>The line between human and machine blurs</p>
+                                <div class="cover-tags">
+                                    <span class="cover-tag">Mystery</span>
+                                    <span class="cover-tag">Thriller</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover-spine" data-title="GHOST PROTOCOL"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" style="--item-index: 4;">
+                    <div class="gallery-cover">
+                        <div class="cover-front">
+                            <img src="video/m2.jpg" alt="Manga Cover">
+                            <div class="cover-gloss"></div>
+                            <div class="cover-info">
+                                <h3>TOKYO PULSE</h3>
+                                <p>A city at the edge of technological revolution</p>
+                                <div class="cover-tags">
+                                    <span class="cover-tag">Drama</span>
+                                    <span class="cover-tag">Romance</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover-spine" data-title="TOKYO PULSE"></div>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" style="--item-index: 5;">
+                    <div class="gallery-cover">
+                        <div class="cover-front">
+                            <img src="video/m6.jpg" alt="Manga Cover">
+                            <div class="cover-gloss"></div>
+                            <div class="cover-info">
+                                <h3>QUANTUM BLADE</h3>
+                                <p>Cutting through reality itself</p>
+                                <div class="cover-tags">
+                                    <span class="cover-tag">Sci-Fi</span>
+                                    <span class="cover-tag">Action</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cover-spine" data-title="QUANTUM BLADE"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="futuristic-divider"></div>
+            
+            
+        </section>
+        
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <svg class="logo-svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 0L36.6025 10V30L20 40L3.39746 30V10L20 0Z" fill="#E33B3B" fill-opacity="0.2"/>
+                        <path d="M20 5L31.6506 11.5V24.5L20 31L8.34936 24.5V11.5L20 5Z" stroke="#E33B3B" stroke-width="2"/>
+                        <path d="M20 10L26.7846 13.75V21.25L20 25L13.2154 21.25V13.75L20 10Z" fill="#E33B3B"/>
+                    </svg>
+                    <h2>NEXUSVERSE</h2>
+                </div>
+                
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#horizontal-videos">Projects</a></li>
+                            <li><a href="#anime-section">Anime</a></li>
+                            <li><a href="#manga-gallery-section">Manga</a></li>
+                            <li><a href="#news">News</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="newsletter">
+                            <h4>Subscribe to Newsletter</h4>
+                            <div class="newsletter-form">
+                                <input type="email" placeholder="Enter your email">
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-divider"></div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Nexusverse. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <span class="footer-separator">|</span>
+                    <a href="#">Terms</a>
+                    <span class="footer-separator">|</span>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('newsScroller');
+            const scrollAmount = 300;
+            
+            const leftBtn = document.getElementById('scrollLeftBtnBottom');
+            const rightBtn = document.getElementById('scrollRightBtnBottom');
+            const dots = document.querySelectorAll('.swipe-dot');
+            
+            // Calculate the number of visible cards based on container width
+            function getScrollIncrement() {
+                const cardWidth = container.querySelector('.news-card').offsetWidth;
+                const gap = 20; // Approximate gap between cards
+                return cardWidth + gap;
+            }
+            
+            // Scroll to specific index/card
+            function scrollToIndex(index) {
+                const increment = getScrollIncrement();
+                const newPosition = index * increment;
+                container.scrollTo({ left: newPosition, behavior: 'smooth' });
+                updateDots(index);
+            }
+            
+            // Scroll Buttons
+            leftBtn.addEventListener('click', () => {
+                const increment = getScrollIncrement();
+                const currentIndex = Math.round(container.scrollLeft / increment);
+                const newIndex = Math.max(0, currentIndex - 1);
+                scrollToIndex(newIndex);
+            });
+            
+            rightBtn.addEventListener('click', () => {
+                const increment = getScrollIncrement();
+                const currentIndex = Math.round(container.scrollLeft / increment);
+                const maxIndex = dots.length - 1;
+                const newIndex = Math.min(maxIndex, currentIndex + 1);
+                scrollToIndex(newIndex);
+            });
+            
+            // Update Dots Based on Scroll Position
+            function updateDots(activeIndex) {
+                if (activeIndex === undefined) {
+                    const increment = getScrollIncrement();
+                    activeIndex = Math.round(container.scrollLeft / increment);
+                    // Keep index within bounds
+                    activeIndex = Math.min(Math.max(0, activeIndex), dots.length - 1);
+                }
+                
+                dots.forEach((dot, i) => {
+                    dot.classList.toggle('active', i === activeIndex);
+                });
+            }
+            
+            // Make dots clickable
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    scrollToIndex(index);
+                });
+            });
+            
+            // Update dots on manual scroll or touch
+            container.addEventListener('scroll', () => {
+                updateDots();
+            });
+            
+            // Touch + Mouse drag (optional swipe functionality)
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+            
+            container.addEventListener('mousedown', (e) => {
+                isDown = true;
+                container.classList.add('grabbing');
+                startX = e.pageX - container.offsetLeft;
+                scrollLeft = container.scrollLeft;
+            });
+            
+            container.addEventListener('mouseleave', () => {
+                isDown = false;
+                container.classList.remove('grabbing');
+            });
+            
+            container.addEventListener('mouseup', () => {
+                isDown = false;
+                container.classList.remove('grabbing');
+                // Snap to nearest card when releasing the drag
+                const increment = getScrollIncrement();
+                const currentIndex = Math.round(container.scrollLeft / increment);
+                scrollToIndex(currentIndex);
+            });
+            
+            container.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - container.offsetLeft;
+                const walk = (x - startX) * 1.5;
+                container.scrollLeft = scrollLeft - walk;
+            });
+            
+            // Mobile swipe
+            container.addEventListener('touchstart', (e) => {
+                startX = e.touches[0].pageX;
+                scrollLeft = container.scrollLeft;
+                container.classList.add('grabbing');
+            }, { passive: true });
+            
+            container.addEventListener('touchend', () => {
+                container.classList.remove('grabbing');
+                // Snap to nearest card when releasing the swipe
+                const increment = getScrollIncrement();
+                const currentIndex = Math.round(container.scrollLeft / increment);
+                scrollToIndex(currentIndex);
+            }, { passive: true });
+            
+            container.addEventListener('touchmove', (e) => {
+                const x = e.touches[0].pageX;
+                const walk = (x - startX) * -1.5;
+                container.scrollLeft = scrollLeft + walk;
+            }, { passive: true });
+            
+            // Initialize dots
+            updateDots(0);
+        });
+    </script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // ... existing code ...
+
+            // Video Modal Functionality
+            const modal = document.querySelector('.modal');
+            const modalVideo = document.querySelector('.modal video');
+            const modalTitle = document.querySelector('.modal-title');
+            const modalDescription = document.querySelector('.modal-description');
+            const closeModal = document.querySelector('.close-modal');
+
+            function openVideoModal(videoSrc, title, description) {
+                modalVideo.src = videoSrc;
+                modalTitle.textContent = title || 'Video Title';
+                modalDescription.textContent = description || 'Video description goes here.';
+                modal.classList.add('active');
+                modalVideo.play();
+            }
+
+            // Close modal when clicking the close button
+            closeModal.addEventListener('click', function() {
+                modal.classList.remove('active');
+                modalVideo.pause();
+                modalVideo.src = '';
+            });
+
+            // Close modal when clicking outside the content
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.classList.remove('active');
+                    modalVideo.pause();
+                    modalVideo.src = '';
+                }
+            });
+
+            // Open modal when clicking AMV cards
+            document.querySelectorAll('.amv-card').forEach(card => {
+                card.addEventListener('click', function() {
+                    const videoSrc = this.getAttribute('data-video');
+                    const title = this.querySelector('.amv-title')?.textContent || 'AMV Video';
+                    const description = this.querySelector('.amv-creator')?.textContent || 'Anime Music Video';
+                    openVideoModal(videoSrc, title, description);
+                });
+            });
+
+            // Open modal when clicking video cards in the anime videos section
+            document.querySelectorAll('.video-card').forEach(card => {
+                card.addEventListener('click', function() {
+                    const videoSrc = this.getAttribute('data-video') || this.querySelector('video source')?.src;
+                    const title = this.querySelector('.video-title')?.textContent || 'Anime Video';
+                    const description = this.querySelector('.video-info')?.textContent || 'Featured anime video';
+                    openVideoModal(videoSrc, title, description);
+                });
+            });
+
+            // ... existing code ...
+        });
+    </script>
+</body>
+</html> 
